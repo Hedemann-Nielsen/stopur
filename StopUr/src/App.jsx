@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <Header></Header>
+    {/* <Header></Header> */}
                 <Routes>
             <Route index element={<Home />} />
             {/* <Route path="/products" element={<Products />} /> */}
@@ -21,7 +21,7 @@ function App() {
             {/* <Route path="/contact" element={<Contact />} /> */}
             {/* <Route path="/jobs" element={<Jobs />} /> */}
           </Routes>
-          <Footer></Footer>
+          {/* <Footer></Footer> */}
     </>
   )
 }
